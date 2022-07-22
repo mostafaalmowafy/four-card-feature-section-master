@@ -1,6 +1,6 @@
 /* Start Variables */
 :root {
-    --section-padding: 60px;
+    --section-padding: 65px;
     --border-size:5px;
     --border-style: solid;
     --border-radius:6px ;
@@ -66,15 +66,19 @@ header .container p:first-of-type{
     font-size: 30px;
     font-weight: 400;
     color:hsl(229, 6%, 66%) ;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 header .container h1{
     color: hsl(234, 12%, 34%);
     margin-top: 0px;
+    
 }
 header .container p:last-of-type{
     color:hsl(229, 6%, 66%) ;
-    
+    line-height:1.2 ;
+    margin-top: 0%;
 }
 
 /* end header  */
@@ -126,6 +130,7 @@ main .container section h2{
 main .container section p{
     color:hsl(229, 6%, 66%) ;
     font-size: 12px;
+    line-height:1.4 ;
 }
 /* End Main  */
 
